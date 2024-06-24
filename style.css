@@ -1,0 +1,40 @@
+div{
+    background-color: blue;
+    color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+/* div > p{
+    background-color: aqua;
+    color: pink;
+} */
+/* Descendent Selector */
+div  p{
+    background-color: aqua;
+    color: pink;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a:visited{
+    color:brown;
+}
+a:link{
+    color:yellow;
+}
+a:active{
+    background-color:blue;
+}
+
+a:hover{
+    background-color: cadetblue;
+}
+
+p:first-child{
+    background-color: navajowhite;
+}
